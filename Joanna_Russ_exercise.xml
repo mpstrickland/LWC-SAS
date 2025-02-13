@@ -2413,6 +2413,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/mpstrickland/LWC-SAS/main/Joanna_Russ_exercise.xml?rs_annotation_20250213145355922",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-02-13T14:53:55.922Z",
+	"dcterms:modified": "2025-02-13T14:53:55.922Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/mpstrickland",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "M.P. Strickland"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/mpstrickland/LWC-SAS/main/Joanna_Russ_exercise.xml?rs_annotation_20250213145355922#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/mpstrickland/LWC-SAS/main/Joanna_Russ_exercise.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/mpstrickland/LWC-SAS/main/Joanna_Russ_exercise.xml?rs_annotation_20250213145355922#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[3]/rs[9]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "owl:Thing",
+		"@id": "http://www.wikidata.org/entity/Q22731",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/mpstrickland/LWC-SAS/main/Joanna_Russ_exercise.xml?rs_annotation_20250213145412051",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-02-13T14:54:12.051Z",
+	"dcterms:modified": "2025-02-13T14:54:12.051Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/mpstrickland",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "M.P. Strickland"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/mpstrickland/LWC-SAS/main/Joanna_Russ_exercise.xml?rs_annotation_20250213145412051#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/mpstrickland/LWC-SAS/main/Joanna_Russ_exercise.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/mpstrickland/LWC-SAS/main/Joanna_Russ_exercise.xml?rs_annotation_20250213145412051#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[3]/rs[10]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "owl:Thing",
+		"@id": "http://www.wikidata.org/entity/Q22731",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
          <projectDesc>
             <p>This encoded file was created by Diane Jakacki and made available for a Linked
@@ -2467,9 +2625,9 @@
             little bit of eye shadow, my heavy <rs key="faille" ref="http://www.wikidata.org/entity/Q3064489">faille</rs> coat, my nail polish, my <rs key="mohair" ref="http://www.wikidata.org/entity/Q179628">mohair</rs> scarf, and my
             gloves, I went into the dormitory garden to wait. The garden was full of late spring
             flowers. I had already admired myself in the full-length mirror on the back of my closet
-            door, but standing between the stone walls on the stone-flagged walk, watching the
+            door, but standing between the <rs key="stone" ref="http://www.wikidata.org/entity/Q22731">stone</rs> walls on the stone-flagged walk, watching the
             flowers grow ever lighter and more disembodied in the blue twilight—and sitting on the
-            stone bench under the Gothic arches and all that ivy—and we were supposed to get A’s and
+            <rs key="stone" ref="http://www.wikidata.org/entity/Q22731">stone</rs> bench under the Gothic arches and all that ivy—and we were supposed to get A’s and
             use the library—we were supposed to write papers—we were supposed to be scholars—I felt
             invisible. I felt awful, I wanted to take off all my clothes and step out of my
             underwear. And then take off my hair and fingernails and my face and my flesh and
