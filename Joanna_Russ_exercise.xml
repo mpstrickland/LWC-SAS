@@ -2018,6 +2018,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/mpstrickland/LWC-SAS/main/Joanna_Russ_exercise.xml?rs_annotation_20250213145229212",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-02-13T14:52:29.212Z",
+	"dcterms:modified": "2025-02-13T14:52:29.212Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/mpstrickland",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "M.P. Strickland"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/mpstrickland/LWC-SAS/main/Joanna_Russ_exercise.xml?rs_annotation_20250213145229212#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/mpstrickland/LWC-SAS/main/Joanna_Russ_exercise.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/mpstrickland/LWC-SAS/main/Joanna_Russ_exercise.xml?rs_annotation_20250213145229212#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[3]/rs[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "owl:Thing",
+		"@id": "http://www.wikidata.org/entity/Q909391",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/mpstrickland/LWC-SAS/main/Joanna_Russ_exercise.xml?rs_annotation_20250213145254151",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-02-13T14:52:54.151Z",
+	"dcterms:modified": "2025-02-13T14:52:54.151Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/mpstrickland",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "M.P. Strickland"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/mpstrickland/LWC-SAS/main/Joanna_Russ_exercise.xml?rs_annotation_20250213145254151#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/mpstrickland/LWC-SAS/main/Joanna_Russ_exercise.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/mpstrickland/LWC-SAS/main/Joanna_Russ_exercise.xml?rs_annotation_20250213145254151#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[3]/rs[5]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "owl:Thing",
+		"@id": "http://www.wikidata.org/entity/Q1348773",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
          <projectDesc>
             <p>This encoded file was created by Diane Jakacki and made available for a Linked
@@ -2067,7 +2225,7 @@
          </figure>
          <p>Twenty years ago I went to <orgName key="Cornell University" ref="http://www.wikidata.org/entity/Q49115" cert="medium"><placeName key="Ithaca" ref="http://www.wikidata.org/entity/Q217346">college</placeName></orgName> and began to recognize the roof; having dressed for a
             date (dates were absolutely crucial then) in my low heels, my <rs key="nylon" ref="http://www.wikidata.org/entity/Q177941">nylons</rs>, my garter belt, my
-            <rs key="horsehair" ref="http://www.wikidata.org/entity/Q964736">horsehair</rs> petticoat, my <rs key="cotton" ref="http://www.wikidata.org/entity/Q11457">cotton</rs> petticoat, my taffeta skirt, my knit jersey blouse, my
+            <rs key="horsehair" ref="http://www.wikidata.org/entity/Q964736">horsehair</rs> petticoat, my <rs key="cotton" ref="http://www.wikidata.org/entity/Q11457">cotton</rs> petticoat, my <rs key="taffeta" ref="http://www.wikidata.org/entity/Q909391">taffeta</rs> skirt, my knit <rs key="jersey" ref="http://www.wikidata.org/entity/Q1348773">jersey</rs> blouse, my
             circle pin, my gold earrings, my charm bracelet, my waist-cincher, my lipstick, my
             little bit of eye shadow, my heavy faille coat, my nail polish, my mohair scarf, and my
             gloves, I went into the dormitory garden to wait. The garden was full of late spring
