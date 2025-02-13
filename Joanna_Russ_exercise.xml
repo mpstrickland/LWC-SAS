@@ -3599,6 +3599,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/mpstrickland/LWC-SAS/main/Joanna_Russ_exercise.xml?rs_annotation_20250213150525716",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-02-13T15:05:25.716Z",
+	"dcterms:modified": "2025-02-13T15:05:25.716Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/mpstrickland",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "M.P. Strickland"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/mpstrickland/LWC-SAS/main/Joanna_Russ_exercise.xml?rs_annotation_20250213150525716#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/mpstrickland/LWC-SAS/main/Joanna_Russ_exercise.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/mpstrickland/LWC-SAS/main/Joanna_Russ_exercise.xml?rs_annotation_20250213150525716#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/sp[7]/stage/rs"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "owl:Thing",
+		"@id": "http://www.wikidata.org/entity/Q23392",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/mpstrickland/LWC-SAS/main/Joanna_Russ_exercise.xml?rs_annotation_20250213150544716",
+	"type": "oa:Annotation",
+	"dcterms:created": "2025-02-13T15:05:44.716Z",
+	"dcterms:modified": "2025-02-13T15:05:44.716Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/mpstrickland",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "M.P. Strickland"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/mpstrickland/LWC-SAS/main/Joanna_Russ_exercise.xml?rs_annotation_20250213150544716#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/mpstrickland/LWC-SAS/main/Joanna_Russ_exercise.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/mpstrickland/LWC-SAS/main/Joanna_Russ_exercise.xml?rs_annotation_20250213150544716#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[14]/rs"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "owl:Thing",
+		"@id": "http://www.wikidata.org/entity/Q553",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
          <projectDesc>
             <p>This encoded file was created by Diane Jakacki and made available for a Linked
@@ -3727,7 +3885,7 @@
          </sp>
          <sp>
             <speaker>The Fairy:</speaker>
-            <stage>(crossing one leg over another, thus revealing she is indeed wearing ice skates,
+            <stage>(crossing one leg over another, thus revealing she is indeed wearing <rs key="ice" ref="http://www.wikidata.org/entity/Q23392">ice</rs> skates,
                great big clumpy white ones):</stage>
             <ab>Well, what do you want, for goodness' sakes! Don't be so difficult. (She then
                mutters under her breath, What do women want? Dear God, what do they want?')</ab>
@@ -3736,7 +3894,7 @@
             <speaker>Me:</speaker>
             <ab>That lousy imitation of Freud—</ab>
          </sp>
-         <p>But here I must break off. The Tooth Fairy cometh not. Messias ist nicht gekommen. It's
+         <p>But here I must break off. The <rs key="tooth" ref="http://www.wikidata.org/entity/Q553">Tooth</rs> Fairy cometh not. Messias ist nicht gekommen. It's
             all ours to get, with Mrs. Anne Radcliffe in one hand and a jackhammer (or jennyhammer)
             in the other, with books and bricks, pride and perseverance, et cetera. Here endeth the
             first sermon. (Are ninety-nine.) Suppose you woke up and saw her...</p>
